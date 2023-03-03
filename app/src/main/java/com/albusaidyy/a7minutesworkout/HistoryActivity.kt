@@ -12,7 +12,7 @@ class HistoryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding?.root)
 
-        setSupportActionBar(binding?.toolbarHistoryActivity)
+       // setSupportActionBar(binding?.toolbarHistoryActivity)
         if (supportActionBar != null) {
             //activate back button
             supportActionBar?.setDisplayHomeAsUpEnabled(true)

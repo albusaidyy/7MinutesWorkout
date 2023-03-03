@@ -25,7 +25,7 @@ class BMIActivity : AppCompatActivity() {
         binding = ActivityBmiBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        setSupportActionBar(binding?.toolbarBmiActivity)
+//        setSupportActionBar(binding?.toolbarBmiActivity)
         if (supportActionBar != null) {
             //activate back button
             supportActionBar?.setDisplayHomeAsUpEnabled(true)

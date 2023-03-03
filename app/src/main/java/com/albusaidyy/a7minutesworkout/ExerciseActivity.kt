@@ -49,7 +49,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding = ActivityExerciseBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        setSupportActionBar(binding?.toolbarExercise)
+        //setSupportActionBar(binding?.toolbarExercise)
         if (supportActionBar != null) {
             //activate back button
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -160,7 +160,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun setRestProgressBar() {
         binding?.progressBar?.progress = resetProgress
-        restTimer = object : CountDownTimer(restTimerDuration * 1000, 1000) {
+        restTimer = object : CountDownTimer(restTimerDuration * 10000, 1000) {
             override fun onTick(p0: Long) {
                 resetProgress++
                 binding?.progressBar?.progress = 10 - resetProgress
@@ -184,7 +184,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun setExerciseProgressBar() {
 
         binding?.progressBarExercise?.progress = exerciseProgress
-        exerciseTimer = object : CountDownTimer(exerciseTimerDuration * 1000, 1000) {
+        exerciseTimer = object : CountDownTimer(exerciseTimerDuration * 30000, 1000) {
             override fun onTick(p0: Long) {
                 exerciseProgress++
                 binding?.progressBarExercise?.progress = 30 - exerciseProgress

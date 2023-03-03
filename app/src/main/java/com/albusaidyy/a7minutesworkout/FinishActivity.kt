@@ -11,7 +11,7 @@ class FinishActivity : AppCompatActivity() {
         binding = ActivityFinishBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        setSupportActionBar(binding?.toolbarFinishActivity)
+//        setSupportActionBar(binding?.toolbarFinishActivity)
         if (supportActionBar != null) {
             //activate back button
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
