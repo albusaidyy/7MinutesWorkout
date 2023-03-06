@@ -12,7 +12,7 @@ Below are sample images of the app.
 
 
 <kbd> 
-<img src="https://github.com/albusaidyy/7MinutesWorkout/blob/master/screenhots/1.png" alt="Screenshot 1" width="300" >
+<img src="https://github.com/albusaidyy/7MinutesWorkout/blob/master/screenshots/1.png" alt="Screenshot 1" width="300" >
 </kbd>
 <br>
 <br>
@@ -20,12 +20,12 @@ Below are sample images of the app.
 
 
 <kbd> 
-<img src="https://github.com/albusaidyy/7MinutesWorkout/blob/master/screenhots/3.png" alt="Screenshot 3" width="300" >
+<img src="https://github.com/albusaidyy/7MinutesWorkout/blob/master/screenshots/3.png" alt="Screenshot 3" width="300" >
 </kbd>
 <br>
 <br>
 
-More can be found [here](https://github.com/albusaidyy/7MinutesWorkout/tree/master/screenhots).
+More can be found [here](https://github.com/albusaidyy/7MinutesWorkout/tree/master/screenshots).
 
 
 
